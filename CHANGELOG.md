@@ -2,6 +2,13 @@
 
 All notable public changes to this repository are recorded here.
 
+## 1.1.3 - 2026-07-17
+
+- Added a universal one-command install through the Agent Skills-compatible `skills` CLI.
+- Kept the Codex Plugin Marketplace flow as the Codex-specific installation option.
+- Documented the Node.js prerequisite, third-party installer boundary, and telemetry opt-out commands.
+- Re-ran remote discovery, installation, Plugin, Skill, archive, functional, and privacy checks.
+
 ## 1.1.2 - 2026-07-17
 
 - Added the MIT license and public publisher metadata for caponia.
