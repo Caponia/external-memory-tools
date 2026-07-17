@@ -1,0 +1,37 @@
+{
+  "name": "manage-external-memory",
+  "version": "1.1.2",
+  "description": "Create and safely manage a tool-neutral local external-memory workspace.",
+  "author": {
+    "name": "caponia",
+    "url": "https://github.com/Caponia"
+  },
+  "homepage": "https://github.com/Caponia/external-memory-tools",
+  "repository": "https://github.com/Caponia/external-memory-tools",
+  "license": "MIT",
+  "keywords": [
+    "external-memory",
+    "knowledge-management",
+    "privacy",
+    "workflow"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "External Memory Manager",
+    "shortDescription": "Create and safely manage shared local AI memory.",
+    "longDescription": "Create, inspect, validate, and safely maintain a Markdown external-memory workspace shared across AI tools, with a beginner tutorial and approval-gated updates.",
+    "developerName": "caponia",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/Caponia/external-memory-tools",
+    "privacyPolicyURL": "https://github.com/Caponia/external-memory-tools/blob/main/PRIVACY.md",
+    "defaultPrompt": [
+      "Open the beginner tutorial without changing files.",
+      "Create a new external-memory workspace after a dry run.",
+      "Validate an existing external-memory workspace without fixing it."
+    ]
+  }
+}

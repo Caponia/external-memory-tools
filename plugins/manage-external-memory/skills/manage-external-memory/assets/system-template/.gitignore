@@ -1,0 +1,13 @@
+.env
+.env.*
+!.env.example
+.dev.vars
+*.key
+*.pem
+*.pfx
+*.p12
+*.sqlite
+*.sqlite3
+*.db
+credentials*
+secrets*

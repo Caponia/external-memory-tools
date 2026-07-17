@@ -1,0 +1,4 @@
+interface:
+  display_name: "外部记忆管理"
+  short_description: "用新手教程建立、读取并安全维护可跨 AI 工具共享的外部记忆库"
+  default_prompt: "使用 $manage-external-memory 打开新手教程，用小白一眼能懂的方式告诉我完整用法，先不要创建或修改文件。"
